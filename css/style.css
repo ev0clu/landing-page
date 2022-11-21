@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 180px;
+}
+
+.logo {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px 128px;
+    gap: 50px;
+}
+
+.main-left {
+    width: 500px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text,
+a,
+button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    font-weight: 600;
+}
+
+.main-button {
+    border-color: #3882F6;
+    box-shadow: none;
+    margin-top: 8px;
+}
+
+
+.main-right {
+    background-color: #6D747D;
+    color: #F9FAF8;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
