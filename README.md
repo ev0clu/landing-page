@@ -10,7 +10,7 @@ In this project, a common website layout has built with flexbox.
 The task was to create a common website layout which is as close as possible to the 'Layout' picture. I used the font and colors which can be seen on the 'Style' picture.
 
 ### Layout
-![alt text](https://https://github.com/ev0clu/landing-page/blob/main/layout.png?raw=true)
+![layout picture](https://github.com/ev0clu/landing-page/blob/main/layout.png?raw=true)
 
 ### Style
-![alt text](https://https://github.com/ev0clu/landing-page/blob/main/style.png?raw=true)
+![style picture](https://github.com/ev0clu/landing-page/blob/main/style.png?raw=true)
