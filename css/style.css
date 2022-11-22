@@ -74,13 +74,12 @@ button {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
-    border: 1px solid #3882F6;
     font-weight: 600;
 }
 
 .main-button {
     border-color: #3882F6;
-    box-shadow: none;
+    border: 1px solid #3882F6;
     margin-top: 8px;
 }
 
@@ -113,6 +112,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -134,3 +134,70 @@ button {
     color: #4B5563;
 }
 
+
+/* Quote section */
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 830px;
+}
+
+.quote-author {
+    font-weight: bolder;
+    width: 750px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Sign up section */
+.sign-container {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign {
+    background-color: #3882F6;
+    padding: 44px 176px;
+    border-radius: 8px;
+    display: flex;
+    gap: 280px;
+}
+
+.sign-header {
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.sign-text {
+    color: #F9FAF8;
+}
+
+.sign-button {
+    border: 1px solid #F9FAF8;
+}
+
+
+/* Footer section */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    padding: 30px 0;
+}
